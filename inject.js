@@ -1,4 +1,4 @@
 window.location = 'javascript:' +
   'document.documentElement.firstChild.appendChild(' +
     'document.createElement("script")' +
-  ').setAttribute("src","http://static.benjamn.com/qed/enable.js");';
+  ').setAttribute("src","https://raw.github.com/benjamn/qed-snippets/master/enable.js");';
