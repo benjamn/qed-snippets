@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Quora Rich Text Snippet Manager",
+  "description": "This extension enables tab-triggered snippets in the Quora rich text editor.",
+  "version": "0.1.0",
+
+  "content_scripts": [{
+    "matches": [
+      "http://*.quora.com/*",
+      "https://*.quora.com/*"
+    ],
+    "js": ["inject.js"]
+  }]
+}
